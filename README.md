@@ -1,5 +1,7 @@
 # Droyd Hackpad
 Here is my hackpad for Athena/Highway! It includes 12 switches, an oled and a rotary encoder, and I plan to use this for simple gaming and music applications.
+In the cad folder I have attached my main cad file, my components (including the files needed to print the case) and components I borrowed from online (credits are below).
+In the kicad folder I attached my primary project files for the PCB.
 
 <p align="center">
   <img src="general_files/Screenshot 2025-06-27 at 1.59.11 AM.png" alt="Preview" width="400"/>
