@@ -19,7 +19,8 @@ Used Autodesk Fusion. In the cad_files folder I have attached my main cad file, 
 # Schematic for PCB
 - I designed the PCB in Kicad. In the kicad folder of the repository I attached my primary project files for the PCB.
 <p align="center">
-  <img src="general_files/pcb3dfront.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
+  <img src="general_files/pcb3dfront.png" alt="Preview" style="max-width: 45%; margin: 1em auto;" />
+  <img src="general_files/pcb3dback.png" alt="Preview" style="max-width: 45%; margin: 1em auto;" />
 </p>
 <p align="center">
   <img src="general_files/pcbwiring.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
@@ -29,13 +30,15 @@ Used Autodesk Fusion. In the cad_files folder I have attached my main cad file, 
 </p>
 
 ## COMPONENTS
-#### For Purchase
+#### From Kit
 - (1) Seeed Studio Xiao RP2040
 - (1) EC11E Rotary Encoder
 - (1) 0.91" SSD1306 OLED screen
 - (12) Cherry MX style switches
-- (12) Blank DSA keycaps
-- (12) DO-35 diodes (THT)
+- (12) Blank DSA keycaps (white, will color)
+- (12) DO-35 diodes
+- (4) M3x16mm screws
+- (4) M3x5mx4mm heatset inserts
 
 #### For Print
 - (1) Base Frame of Case
