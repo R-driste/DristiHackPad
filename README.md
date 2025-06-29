@@ -1,16 +1,46 @@
 # DroydPad
-Here is my hackpad for Athena/Highway! It includes 12 switches, an oled and a rotary encoder, and I plan to use this for simple gaming and music applications.
-In the cad folder I have attached my main cad file, my components (including the files needed to print the case) and components I borrowed from online (credits are below).
-In the kicad folder I attached my primary project files for the PCB.
+Here is my hackpad for Athena/Highway in Hack Club! It includes 12 switches, an oled and a rotary encoder.
+- My firmware turns the hackpad into a T-9 typing pad or a shortcuts simplifier (don't have to hold down multiple keys at once). The OLED displays what is currently happening and the rotary encoder changes the brightness of the screen.
+- Pictures of my schematic and cad can be found in the general_files
 
+# Case CAD
+Used Autodesk Fusion. In the cad_files folder I have attached my main cad file, my components (including the files needed to print the case) and components I borrowed from online (credits are below).
 <p align="center">
-  <img src="general_files/Screenshot 2025-06-27 at 1.59.11 AM.png" alt="Preview" width="400"/>
-  <img src="general_files/Screenshot 2025-06-27 at 1.50.58 AM.png" alt="Preview" width="400"/>
+  <img src="general_files/midrender.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
 </p>
 <p align="center">
-  <img src="general_files/Screenshot 2025-06-27 at 12.59.58 AM.png" alt="Preview" width="400"/>
-  <img src="general_files/Screenshot 2025-06-27 at 1.33.20 AM.png" alt="Preview" width="400"/>
+  <img src="general_files/highrender.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
 </p>
+<p align="center">
+  <img src="general_files/outsidecad.png" alt="Preview" style="max-width: 45%; margin: 1em auto;"/>
+  <img src="general_files/insidecad.png" alt="Preview" style="max-width: 45%; margin: 1em auto;"/>
+</p>
+
+# Schematic for PCB
+- I designed the PCB in Kicad. In the kicad folder of the repository I attached my primary project files for the PCB.
+<p align="center">
+  <img src="general_files/pcb3dfront.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
+</p>
+<p align="center">
+  <img src="general_files/pcbwiring.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
+</p>
+<p align="center">
+  <img src="general_files/schematic.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
+</p>
+
+## COMPONENTS
+#### For Purchase
+- (1) Seeed Studio Xiao RP2040
+- (1) EC11E Rotary Encoder
+- (1) 0.91" SSD1306 OLED screen
+- (12) Cherry MX style switches
+- (12) Blank DSA keycaps
+- (12) DO-35 diodes (THT)
+
+#### For Print
+- (1) Base Frame of Case
+- (1) Top Cover of Case
+- (1) Rotary Encoder Knob
 
 ## CREDITS
 Online Components Links:

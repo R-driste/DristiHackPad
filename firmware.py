@@ -81,6 +81,10 @@ TAP_DELAY = 0.5
 last_key = None #track last pressed
 tap_index = 0
 
+brightness = 1.0 #start full brightness
+BRIGHT_STEP = 0.1 # encoder “click” changes by 10%
+display.brightness = brightness
+
 while True:
     event = keys.events.get()
     if event:
@@ -129,15 +133,13 @@ while True:
                 for k in combo:
                     kbd.release(k)
 
-    #rotary encoder position update
+    #rotary encoder position updates brightness
     pos = encoder.position
     if pos != last_position:
-        if pos > last_position:
-            kbd.press(Keycode.RIGHT_ARROW)
-            kbd.release(Keycode.RIGHT_ARROW)
-        else:
-            kbd.press(Keycode.LEFT_ARROW)
-            kbd.release(Keycode.LEFT_ARROW)
+        delta = pos - last_position
+        brightness += BRIGHT_STEP * (1 if delta > 0 else -1)
+        brightness = max(0.0, min(1.0, brightness))   # clamp 0‑1
+        display.brightness = brightness               # apply
         last_position = pos
 
     time.sleep(0.01)
