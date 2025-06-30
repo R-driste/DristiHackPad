@@ -6,13 +6,10 @@ Here is my hackpad for Athena/Highway in Hack Club! It includes 12 switches, an 
 # Case CAD
 Used Autodesk Fusion. In the cad_files folder I have attached my main cad file, my components (including the files needed to print the case) and components I borrowed from online (credits are below).
 <p align="center">
-  <img src="general_files/midrender.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
+  <img src="general_files/final_render.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
 </p>
 <p align="center">
-  <img src="general_files/highrender.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
-</p>
-<p align="center">
-  <img src="general_files/outsidecad.png" alt="Preview" style="max-width: 45%; margin: 1em auto;"/>
+  <img src="general_files/sketch.png" alt="Preview" style="max-width: 45%; margin: 1em auto;"/>
   <img src="general_files/insidecad.png" alt="Preview" style="max-width: 45%; margin: 1em auto;"/>
 </p>
 
