@@ -133,13 +133,13 @@ while True:
                 for k in combo:
                     kbd.release(k)
 
-    #rotary encoder position updates brightness
+    #rotary encoder position changes brightness
     pos = encoder.position
     if pos != last_position:
         delta = pos - last_position
         brightness += BRIGHT_STEP * (1 if delta > 0 else -1)
-        brightness = max(0.0, min(1.0, brightness))   # clamp 0‑1
-        display.brightness = brightness               # apply
+        brightness = max(0.0, min(1.0, brightness))
+        display.brightness = brightness #update
         last_position = pos
 
     time.sleep(0.01)
