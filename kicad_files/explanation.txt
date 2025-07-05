@@ -1,1 +1,0 @@
-Hello, here are my kicad files containing the pcb schematic and footprint for this project!

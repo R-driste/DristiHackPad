@@ -1,10 +1,10 @@
 # DroydPad
 Here is my hackpad for Athena/Highway in Hack Club! It includes 12 switches, an oled and a rotary encoder.
+- You can find the pcb gerbers and 3d print files in the sub folders. Please print my case white so I can paint it later.
 - My firmware turns the hackpad into a T-9 typing pad or a shortcuts simplifier (don't have to hold down multiple keys at once). The OLED displays what is currently happening and the rotary encoder changes the brightness of the screen.
 - Pictures of my schematic and cad can be found in the general_files
 <p align="center">
-  <img src="general_files/final_render.png" alt="Preview" style="max-width: 38%; margin: 1em auto" />
-  <img src="general_files/viewport.png" alt="Preview" style="max-width: 55%; margin: 1em auto" />
+  <img src="general_files/final.png" alt="Preview" style="max-width: 38%; margin: 1em auto" />
 </p>
 
 # Case CAD
@@ -27,21 +27,24 @@ Used Autodesk Fusion. In the cad_files folder I have attached my main cad file, 
   <img src="general_files/schematic.png" alt="Preview" style="max-width: 90%; margin: 1em auto; display: block;" />
 </p>
 
-## COMPONENTS
+## BOM:
+These should be the necessary parts to assemble this project.
 #### From Kit
-- (1) Seeed Studio Xiao RP2040
-- (1) EC11E Rotary Encoder
-- (1) 0.91" SSD1306 OLED screen
-- (12) Cherry MX style switches
-- (12) Blank DSA keycaps (white, will color)
-- (12) DO-35 diodes
-- (4) M3x16mm screws
-- (4) M3x5mx4mm heatset inserts
+- 1x Seeed Studio Xiao RP2040
+- 1x EC11E Rotary Encoder
+- 1x 0.91" SSD1306 OLED screen
+- 12x Cherry MX style switches
+- 12x Blank DSA keycaps (white, will color)
+- 12x DO-35 diodes
+- 4x M3x16mm screws
+- 4x M3x5mx4mm heatset inserts
 
 #### For Print
-- (1) Base Frame of Case
-- (1) Top Cover of Case
-- (1) Rotary Encoder Knob
+- 1x Base Frame of Case
+- 1x Top Cover of Case
+- 1x Rotary Encoder Knob
+
++ the PCB of course.
 
 ## CREDITS
 Online Components Links:
